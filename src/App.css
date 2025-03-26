@@ -12,9 +12,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1;
+  justify-content: center;
 }
 
 .pf-video {
-  width: 100px;
+  width: 300px;
+  margin: 10px;
 }
 
+.pf-video video {
+  width: 100%;
+  height: auto;
+}
